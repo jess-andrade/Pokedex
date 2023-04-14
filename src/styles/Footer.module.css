@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f52020;
+  height: 150px;
+  margin-top: 2em;
+  z-index: 1;
+  color: white;
+
+}
+
+.footer span {
+  font-weight: bold;
+}

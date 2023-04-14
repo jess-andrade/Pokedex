@@ -1,0 +1,24 @@
+.id {
+  top: -6px;
+  background-color: rgb(0, 0, 0);
+  color: #BBBBBB;
+  border-radius: 40px;
+  width: 10%;
+  position: relative;
+  margin-left: 45%;
+}
+
+.abilities {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ability {
+  /* background-color: rgb(73, 183, 195); */
+  border-radius: 4%;
+  color: black;
+  min-width: 90%;
+
+}

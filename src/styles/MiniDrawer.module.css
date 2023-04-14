@@ -1,0 +1,41 @@
+.dots {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  letter-spacing: 10px;
+  font-size: 30px;
+  padding-left: 70px;
+
+}
+
+.blue {
+  position: absolute;
+  font-size: 100px;
+  margin-top: -57px;
+  color: rgb(73, 183, 195);
+  padding-left: 22px;
+}
+
+.blue2 {
+  position: absolute;
+  font-size: 116px;
+  margin-top: -70px;
+  color: rgb(254, 255, 255);
+  padding-left: 19px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: rgb(255, 237, 73);
+}
+
+.yellow {
+  color: rgb(43, 255, 0);
+}
+
+.link {
+  text-decoration: none;
+}
