@@ -1,3 +1,7 @@
+ʕ•́ᴥ•̀ʔっ♡ access this link: https://pokedex-dkn1yw274-jess-andrade.vercel.app/
+
+_________
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
