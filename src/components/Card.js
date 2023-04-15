@@ -51,15 +51,15 @@ export default function ActionAreaCard({ pokemon }) {
         />
         <CardContent>
 
-          <Typography className={styles.id}>{pokemon.id}</Typography>
+          <Typography className={styles.id}>{pokemon.id ? pokemon.id : 'id'}</Typography>
           <Typography gutterBottom variant="h5" component="div" sx={{ color: '#BBBBBB' }}>
-            {pokemon.name[0].toUpperCase() + pokemon.name.substring(1)}
+            {pokemon.name ? pokemon.name[0].toUpperCase() + pokemon.name.substring(1) : 'name'}
           </Typography>
 
           <div className={styles.abilities}>
-            {pokemon.abilities.map((ability, index) => (
+            {pokemon.abilities ? pokemon.abilities.map((ability, index) => (
               <Typography className={styles.ability} sx={{ backgroundColor: colors[pokemon.type] }} key={index}>{ability}</Typography>
-            ))}
+            )) : 'ability'}
           </div>
 
 
